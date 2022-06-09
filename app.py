@@ -53,7 +53,7 @@ def victory_for(board, sign):
     # x's
     if board[0][0] == sign and board[1][1] == sign and board[2][2] == sign:
         return True
-    if board[0][2] == sign and board[2][0] == sign and board[2][1] == sign:
+    if board[0][2] == sign and board[1][1] == sign and board[2][0] == sign:
         return True
         
     return False
